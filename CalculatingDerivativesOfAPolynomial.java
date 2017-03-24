@@ -28,10 +28,11 @@ public class CalculatingDerivativesOfAPolynomial{
          }
       }
       derivateArray[arrayOfCoefficients.length-1]=0;
+      System.out.println("The derivative of the polynomial is:");
       printArray(derivateArray);
    }
    public void printArray(double[] derivateArray){
-      System.out.println("The derivative of the polynomial is:");
+      //System.out.println("The derivative of the polynomial is:");
       for(int i=0;i<derivateArray.length;i++){
          System.out.print(derivateArray[i]+"x^"+i+"+");
       }
